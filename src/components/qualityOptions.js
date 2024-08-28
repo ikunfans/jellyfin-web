@@ -46,7 +46,7 @@ export function getVideoQualityOptions(options) {
     if (maxAllowedWidth >= 1260 && hostScreenWidth >= 650) {
         qualityOptions.push({ name: '720p - 8 Mbps', maxHeight: 720, bitrate: 8000000 });
         qualityOptions.push({ name: '720p - 6 Mbps', maxHeight: 720, bitrate: 6000000 });
-        qualityOptions.push({ name: '720p - 4 Mbps', maxHeight: 720, bitrate: 4000000 });
+        qualityOptions.push({ name: '720p - 1 Mbps', maxHeight: 720, bitrate: 1000000 });
     }
     if (maxAllowedWidth >= 620) {
         qualityOptions.push({ name: '480p - 3 Mbps', maxHeight: 480, bitrate: 3000000 });
